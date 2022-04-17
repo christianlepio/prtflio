@@ -4,14 +4,14 @@ body {
 
   
 html::-webkit-scrollbar {
-  width: .6rem;
+  width: .3rem;
   border-radius: .5rem;
   background-color: gainsboro;
 }
 
 html::-webkit-scrollbar-thumb {
   background-color: rgb(156, 155, 155);
-  border-radius: .5rem;
+  border-radius: .8rem;
 }
 
 html::-webkit-scrollbar-thumb:hover {
