@@ -274,3 +274,18 @@ footer #copyright {
 	font-weight: 600;
 	color: whitesmoke;
 }
+
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: gainsboro;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(156, 155, 155);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(121, 118, 118);
+}
