@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden; /* Hide scrollbars */
-	::-webkit-scrollbar {
+  }
+
+  
+::-webkit-scrollbar {
   width: .6rem;
   border-radius: .5rem;
   background-color: gainsboro;
@@ -14,7 +17,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(121, 118, 118);
 }
-  }
+
+
 .logoko{
     clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 85%, 50% 100%, 0 85%);
 }
