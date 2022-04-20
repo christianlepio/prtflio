@@ -32,6 +32,7 @@ body {
     top: 10px;
     color: #62d2e7 !important;
     font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     animation: bounce 2s linear infinite;
 }
