@@ -6,7 +6,7 @@ body {
 .loader{
     width: 60vmin;
     margin: auto;
-    margin-top: 40vh;
+    margin-top: 30vh;
     position: relative;
 }
 .loader .loading_1{
@@ -36,6 +36,13 @@ body {
     animation: bounce 2s linear infinite;
 }
 
+.loader .loading_3{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    animation: bounces 1s linear infinite;
+}
+
 @keyframes load{
     0%{
         width: 0%;
@@ -60,16 +67,28 @@ body {
 
 @keyframes bounce{
     0%, 100%{
-            top: 50px;
+            top: 130px;
     }
     12.5%{
-        top: 70px;
+        top: 140px;
+    }
+}
+@keyframes bounces{
+    0%, 100%{
+        top: 15px;
+
+    }
+    12.5%{
+        top: 0px;
     }
 }
 #myDiv {
-  visibility: hidden;
+    display: none;
 }
-  
+.mystylebod{
+    display: block !important;
+}
+
 html::-webkit-scrollbar {
   width: .3rem;
   border-radius: .5rem;

@@ -22,13 +22,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Portfolio Ryan Christian Lepio</title>
+    <title>Portfolio | christianlepio</title>
     
     <link rel = "icon" href ="images/logoko.JPG" type = "image/x-icon">
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
     <div class="loader" id="loader">
+      <div class="loading_3 d-flex justify-content-center mb-4"><img src="images/logoko.JPG" width="77" height="77" class="logoko"></div>
       <div class="loading_1"></div>
       <div class="loading_2">Loading...</div>
     </div>
@@ -482,15 +483,16 @@
     <script>
         window.onload = function(){
         //hide the preloader
-        const myVar = setTimeout(showPage, 3583);
+          setTimeout(function(){
+          showPage();
+        }, 3500);
         
         }        
         function showPage() {
+          document.getElementById("myDiv").classList.add("mystylebod");
           document.getElementById("loader").style.display = "none";
-          document.getElementById("myDiv").style.visibility = "visible";
+          AOS.init();
         }
-
-        AOS.init();
     </script>
   </body>
 </html>
