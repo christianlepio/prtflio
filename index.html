@@ -34,9 +34,8 @@
       <div class="loading_2">&copy; christianlepio</div>
     </div>
 <div id="myDiv">
-    <div class="text-white floatic d-flex justify-content-end p-3">
-      <a href="#top"><i class="fa-solid fa-circle-arrow-up text-white fs-1"></i></a>
-    </div>
+  <!-- Back to top button -->
+    <a id="button"></a>
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
           <div class="site-mobile-menu-close mt-3">
@@ -493,6 +492,21 @@
           document.getElementById("loader").style.display = "none";
           AOS.init();
         }
+        var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
     </script>
   </body>
 </html>

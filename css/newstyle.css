@@ -109,16 +109,43 @@ html::-webkit-scrollbar-thumb:hover {
 .logoko{
     clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 85%, 50% 100%, 0 85%);
 }
-.floatic{
+
+#button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
     position: fixed;
-    width: 100%;
-    margin-top: 85vh;
-    padding-right: 2vh !important;
-}
-.floatic i{
-    font-size: 2.2em !important;
-    opacity: 0.39;
-}
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 0.3;
+    background-color: #20c997;
+    visibility: visible;
+  }
 
 .home .profile{
     width: 78vmin;
