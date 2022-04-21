@@ -226,7 +226,7 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 .project{
-    padding: 4em 4em 4em;
+    padding: 4em 4em 2.8em;
     background-color: #23364B !important;
 }
 .project h2{
