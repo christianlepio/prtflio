@@ -229,6 +229,9 @@ html::-webkit-scrollbar-thumb:hover {
     padding: 4em 4em 2.8em;
     background-color: #23364B !important;
 }
+.project .seeproj .seeprojlink:hover{
+    color:#62d2e7 !important;
+}
 .project h2{
     font-size: 2.8em;
     font-weight: 740 !important;
