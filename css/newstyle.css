@@ -159,7 +159,8 @@ html::-webkit-scrollbar-thumb:hover {
 }
 .home span{
     font-weight: 300;
-	font-size: .7em;background: #20C997;
+	font-size: .7em;
+    background: #20C997;
     background: linear-gradient(to right, #20C997 0%, #A8EB12 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
