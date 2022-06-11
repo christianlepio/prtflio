@@ -160,10 +160,7 @@ html::-webkit-scrollbar-thumb:hover {
 .home span{
     font-weight: 300;
 	font-size: .7em;
-    background: #20C997;
-    background: linear-gradient(to right, #A8EB12 0%, #20C997  100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 .home .elasticbutt a{
     transform: translate(-50%, -50%);
