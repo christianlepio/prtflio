@@ -180,7 +180,7 @@ html::-webkit-scrollbar-thumb:hover {
     letter-spacing: 2px;
     box-shadow: 0 0 0 1px black, 0 0 0 3px #20c997;
     background-color: #20c997;
-    color: #BFFCF9;
+    color: white;
     transform: translate(-50%, -50%) scaleY(.9);
 }
 .home .ic{
