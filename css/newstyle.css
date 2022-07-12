@@ -289,10 +289,10 @@ html::-webkit-scrollbar-thumb:hover {
 .aboutme img{
     width: 55vmin;
     height: 55vmin;
-    border: 3px solid black;
-    box-shadow: -1px 2px 26px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 2px 26px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 2px 26px -2px rgba(0,0,0,0.75);
+    border: 3px solid white;
+    box-shadow: -1px 2px 26px -2px rgba(255,255,255,0.75);
+    -webkit-box-shadow: -1px 2px 26px -2px rgba(255,255,255,0.75);
+    -moz-box-shadow: -1px 2px 26px -2px rgba(255,255,255,0.75);
     border-radius: 360px;
     transition: transform .4s;
 }
